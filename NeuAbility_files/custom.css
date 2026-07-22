@@ -1,0 +1,20 @@
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #ffffff !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 5px #000000 !important;
+}
+
+.sqs-button-element--primary {
+  background-color: #003366 !important;
+  border-color: #003366 !important;
+  color: #ffffff !important;
+}
+
+.sqs-button-element--primary:hover,
+.sqs-button-element--primary:focus-visible {
+  background-color: #001a33 !important; 
+}
+
